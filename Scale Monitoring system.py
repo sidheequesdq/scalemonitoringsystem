@@ -4,10 +4,10 @@ from twilio.rest import Client
 import time
 
 # Twilio account details
-TWILIO_SID = 'AC98a05a9aa9ae4b19ce5c13c57bcb655f'
-TWILIO_AUTH_TOKEN = 'd9aa047ffcf597d23506130742069353'
-TWILIO_PHONE_NUMBER = '+16205434930'
-TO_PHONE_NUMBER = '+96891285071'
+TWILIO_SID = 'your twilio SID'
+TWILIO_AUTH_TOKEN = 'your twilio Auth_Token'
+TWILIO_PHONE_NUMBER = 'Twilio phn number'
+TO_PHONE_NUMBER = 'your phn number'
 
 # IP addresses and their names to monitor
 IP_ADDRESSES = {'10.0.22.20': 'VegScale1', '10.0.22.21': 'VegScale2', '10.0.22.22': 'VegScale3', '10.0.22.23': 'VegScale4', '10.0.22.24': 'VegScale5', '10.0.22.26': 'FishScale1', '10.0.22.27': 'FishScale2', '10.0.22.28': 'FishScale3', '10.0.22.31': 'ButcheryScale1', '10.0.22.32': 'ButcheryScale2', '10.0.22.33': 'ButcheryScale3', '10.0.22.35': 'RosteryScale1', '10.0.22.36': 'RosteryScale2', '10.0.22.37': 'RosteryScale3', '10.0.22.40': 'DeliScale1-ServerRoom', '10.0.22.41': 'DeliScale2', '10.0.22.42': 'BakeryScale1', '10.0.22.43': 'BakeryScale2', '10.0.22.23': 'HotFoodScale1', '10.0.22.45': 'HotFoodScale2'}
